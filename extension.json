@@ -1,0 +1,15 @@
+{
+  "name": "ext_host",
+  "entrypoint": "index.ts",
+  "version": "0.1.0",
+  "description": "gRPC server for remote extensions and remora daemon connections. Required by remora extension.",
+  "config": [
+    {
+      "name": "address",
+      "type": "string",
+      "description": "gRPC listen address",
+      "required": false,
+      "default": ":50051"
+    }
+  ]
+}

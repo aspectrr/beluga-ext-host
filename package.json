@@ -1,0 +1,24 @@
+{
+  "name": "@beluga/ext-host",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.ts",
+  "types": "index.ts",
+  "files": ["index.ts", "proto/**/*", "extension.json"],
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@beluga/sdk": "file:../beluga/packages/sdk",
+    "@grpc/grpc-js": "^1.14.4",
+    "@grpc/proto-loader": "^0.8.1"
+  },
+  "peerDependencies": {
+    "pino": "^9.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "^1.3.14",
+    "typescript": "^5.8.3"
+  }
+}
