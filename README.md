@@ -1,6 +1,6 @@
 # beluga-ext-host
 
-The gRPC host extension for [Beluga](https://github.com/collinpfeifer/beluga). Provides the shared gRPC server that other extensions (like remora) can register services on, and accepts remote extension connections over a bidirectional gRPC stream.
+The gRPC host extension for [Beluga](https://github.com/aspectrr/beluga). Provides the shared gRPC server that other extensions (like remora) can register services on, and accepts remote extension connections over a bidirectional gRPC stream.
 
 ## What It Does
 
@@ -11,7 +11,7 @@ The gRPC host extension for [Beluga](https://github.com/collinpfeifer/beluga). P
 ## Install
 
 ```bash
-beluga extend install github.com/collinpfeifer/beluga-ext-host
+beluga extend install github.com/aspectrr/beluga-ext-host
 ```
 
 ## Config
@@ -27,4 +27,4 @@ extensions:
 
 ## Remote Extensions
 
-Remote extensions connect to ext_host's gRPC server using the [beluga-ext-sdk](https://github.com/collinpfeifer/beluga-ext-sdk) client package. See that repo for usage examples.
+Remote extensions connect to ext_host's gRPC server using the [beluga-ext-sdk](https://github.com/aspectrr/beluga-ext-sdk) client package. See that repo for usage examples.

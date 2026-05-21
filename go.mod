@@ -1,14 +1,14 @@
-module github.com/collinpfeifer/beluga-ext-host
+module github.com/aspectrr/beluga-ext-host
 
 go 1.25.0
 
-replace github.com/collinpfeifer/beluga => ../beluga
+replace github.com/aspectrr/beluga => ../beluga
 
-replace github.com/collinpfeifer/beluga-ext-sdk => ../beluga-ext-sdk
+replace github.com/aspectrr/beluga-ext-sdk => ../beluga-ext-sdk
 
 require (
-	github.com/collinpfeifer/beluga v0.0.0-00010101000000-000000000000
-	github.com/collinpfeifer/beluga-ext-sdk v0.0.0-00010101000000-000000000000
+	github.com/aspectrr/beluga v0.0.0-00010101000000-000000000000
+	github.com/aspectrr/beluga-ext-sdk v0.0.0-00010101000000-000000000000
 	google.golang.org/grpc v1.81.1
 )
 

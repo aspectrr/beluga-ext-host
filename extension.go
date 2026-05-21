@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	sdk "github.com/collinpfeifer/beluga-ext-sdk/belugav1"
+	sdk "github.com/aspectrr/beluga-ext-sdk/belugav1"
 	"github.com/collinpfeifer/beluga/pkg/extension"
 )
 
