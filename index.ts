@@ -16,7 +16,7 @@ import type {
 	ToolDef,
 	ToolContext,
 	Registry,
-} from "@beluga/sdk";
+} from "@aspectrr/beluga-sdk";
 
 // ── Proto loading ──────────────────────────────────────────────
 
